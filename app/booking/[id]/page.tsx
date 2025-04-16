@@ -17,22 +17,6 @@ export default async function BookingDetails({
     <div className="p-6 max-w-xl mx-auto">
       <BookingCard booking={booking}>
         <div className="flex items-center">
-          <Car className="mr-2 h-4 w-4" />
-          <span>Vehical Type: {booking.vehicle.type}</span>
-        </div>
-        <div className="flex items-center">
-          <CalendarClockIcon className="mr-2 h-4 w-4" />
-          <span>
-            Pickup: {booking.pickupDate} & {booking.pickupTime}
-          </span>
-        </div>
-        <div className="flex items-center">
-          <CalendarClockIcon className="mr-2 h-4 w-4 rotate-180" />
-          <span>
-            Dropoff: {booking.dropoffDate} & {booking.dropoffTime}
-          </span>
-        </div>
-        <div className="flex items-center">
           <PhoneCall className="mr-2 h-4 w-4" />
           <span>Contact No: {booking.customer.contactNumber}</span>
         </div>
