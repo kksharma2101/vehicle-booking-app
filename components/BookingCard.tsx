@@ -1,4 +1,3 @@
-// /components/BookingCard.tsx
 import Link from "next/link";
 import StatusBadge from "./StatusBadge";
 import { BookingType } from "@/types/apiDataType";
@@ -6,7 +5,6 @@ import {
   CalendarClockIcon,
   CalendarIcon,
   Car,
-  MapPin,
   Users,
 } from "lucide-react";
 

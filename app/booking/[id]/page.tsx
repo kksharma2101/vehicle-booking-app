@@ -1,7 +1,6 @@
-// /app/booking/[id]/page.tsx
 import BookingCard from "@/components/BookingCard";
 import { fetchBookingById } from "@/lib/api";
-import { PhoneCall, Car, CalendarClockIcon } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 
 export default async function BookingDetails({
   params,
